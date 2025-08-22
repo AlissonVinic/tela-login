@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*Versão tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    body{
+        min-width: 100vh;
+        background-image: linear-gradient(rgb(69, 45, 188), rgb(133, 29, 162));
+    }
+
+    section{
+        width: 80vw;
+        height: 450px;
+    }
+
+    section #teclado{
+        float: left;
+    }
+
+    section p{
+        text-align: center;
+        display: block;
+        padding: 0 5px;
+        text-align: justify;
+
+    }
+
+    #info{
+        padding: 0 5px;
+        float: right;
+        width: 60%;
+    }
+
+    #teclado{
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .textField{
+
+    }
+
+    #enviar{
+
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        background-image: linear-gradient(rgb(69, 45, 188), rgb(133, 29, 162));
+    }
+
+    section{
+        width: 820px;
+        height: 350px;
+    }
+
+    section #teclado{
+        float: right;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    section p{
+        text-align: center;
+        display: block;
+        padding: 0 5px;
+        text-align: justify;
+
+    }
+
+    #info{
+        padding: 0 5px;
+        float: left;
+        width: 60%;
+    }
+
+    #teclado{
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .textField{
+        
+    }
+
+    #enviar{
+
+    }
+}

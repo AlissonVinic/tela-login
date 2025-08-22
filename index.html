@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="shortcut icon" href="imagens/pessoas.ico" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div id="teclado"></div>
+        <div id="info">
+            <h1>Login</h1>
+            <p>Seja bem-vindo. Faça login para acessar sua conta e fazer configurações no seu ambiente.</p>
+        
+        <form action="cadastro.php" method="get">
+            <div class="textField">
+                <label for="iemail"><img src="imagens/usuario.png" alt="Usuário"></label>
+                <input type="email" name="email" id="iemail" placeholder="Seu email" class="texto" required>
+            </div>
+
+            <div class="textField">
+                <label for="isenha"><img src="imagens/key.png" alt="Chave"></label>
+                <input type="password" name="senha" id="isenha" placeholder="Sua senha" class="texto" required>
+            </div>
+
+            <div>
+                <input type="submit" placeholder="Enviar" id="enviar">
+                <button type="button" id="recuperarSenha">Esqueci minha senha</button>
+            </div>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
