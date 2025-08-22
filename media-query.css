@@ -5,7 +5,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
 
     body{
-        min-width: 100vh;
         background-image: linear-gradient(rgb(69, 45, 188), rgb(133, 29, 162));
     }
 
